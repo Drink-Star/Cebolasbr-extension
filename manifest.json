@@ -3,9 +3,19 @@
   "name": "CebolasBR",
   "description": "Tokens com camadas, efeitos e barras personalizadas.",
   "version": "1.0.0",
-  "author": "Drink's br",
+  "author": "K.Drink",
   "entry": "index.html",
-  "permissions": ["token", "metadata"]
+  "permissions": [
+    {
+      "name": "token",
+      "reason": "Manipular tokens no mapa"
+    },
+    {
+      "name": "metadata",
+      "reason": "Salvar e carregar dados personalizados por token"
+    }
+  ]
 }
+
 
 
