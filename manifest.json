@@ -1,4 +1,5 @@
 {
+  "manifest_version": 1,
   "name": "CebolasBR",
   "description": "Tokens com camadas, efeitos e barras personalizadas.",
   "version": "1.0.0",
@@ -6,3 +7,4 @@
   "entry": "index.html",
   "permissions": ["token", "metadata"]
 }
+
