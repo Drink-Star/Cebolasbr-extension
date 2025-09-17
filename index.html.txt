@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>CebolasBR</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cebolas-panel">
+    <h2>CebolasBR – Configuração do Token</h2>
+
+    <section class="panel-section">
+      <h3>Estados Visuais</h3>
+      <div class="state-list">
+        <span class="state">Normal</span>
+        <span class="state">Ferido</span>
+        <span class="state">Morto</span>
+        <button class="btn flip-btn">Flip</button>
+      </div>
+    </section>
+
+    <section class="panel-section">
+      <h3>Barras</h3>
+      <div class="bar">
+        <label>Vida</label>
+        <input type="range" min="0" max="20" value="10" class="bar-slider" />
+        <input type="color" value="#ff0000" />
+      </div>
+      <div class="bar">
+        <label>Mana</label>
+        <input type="range" min="0" max="10" value="5" class="bar-slider" />
+        <input type="color" value="#0000ff" />
+      </div>
+    </section>
+
+    <section class="panel-section">
+      <h3>Efeitos</h3>
+      <div class="effect">
+        <label>Envenenado</label>
+        <input type="color" value="#4caf50" />
+        <select>
+          <option>Fumaça</option>
+          <option>Gás</option>
+          <option>Aura</option>
+        </select>
+        <button class="btn effect-toggle">Aplicar</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
