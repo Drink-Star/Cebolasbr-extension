@@ -3,8 +3,9 @@
   "name": "CebolasBR",
   "description": "Tokens com camadas, efeitos e barras personalizadas.",
   "version": "1.0.0",
-  "author": "Kaique",
+  "author": "Drink's br",
   "entry": "index.html",
   "permissions": ["token", "metadata"]
 }
+
 
